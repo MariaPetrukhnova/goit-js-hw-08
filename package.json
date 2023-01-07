@@ -5,7 +5,7 @@
   "homepage": "https://mariapetrukhnova.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/index.html",
-    "deploy": "gh-pages -d dist"
+    "deploy": "parcel build src/*.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
-    "gh-pages": "^4.0.0",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.11.0"
