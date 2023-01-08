@@ -10,8 +10,7 @@ console.log(galleryItems);
 const galleryContainer = document.querySelector('.gallery');
 const galleryItem = createGalleryGrid(galleryItems);
 galleryContainer.insertAdjacentHTML('beforeend', galleryItem);
-const itemsLinks = document.querySelectorAll('.gallery__item');
-const imgItem = document.querySelector('.gallery__image')
+
 
 
 function createGalleryGrid(galleryItems) {
